@@ -100,13 +100,7 @@ body {
     }
 
 
-/**
-@media screen and (max-width:700px) {
-    #pizza {background-image: url("../img/img3.jpg");
 
-    }
-}
-**/
 
 
 
@@ -156,8 +150,9 @@ color: black;
         background-size: cover;
         filter: grayscale(50%);
         overflow:hidden;
-
     }
+
+
 
 #pizza h1 {
 text-align: center;
