@@ -1,7 +1,4 @@
-html,
-*,
-*::before,
-*::after  {
+* {
     box-sizing: border-box;
 }
 
@@ -9,6 +6,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Amatic SC', cursive;
+    background-color: black;
 }
 
 
@@ -97,10 +95,8 @@ body {
         .col-lg-11 {width: 91.66%;}
         .col-lg-12 {width: 100%;}
 
+        .width {width:980px;}
     }
-
-
-
 
 
 
@@ -159,7 +155,7 @@ text-align: center;
     font-size: 85px;
     color: white;
     font-weight: normal;
-    margin-top: 100px;
+    margin-top: 40px;
     margin-bottom: 20px;
     line-height: 1.5;
     padding-bottom: 0;
@@ -171,14 +167,15 @@ text-align: center;
     display: block;
     margin: 0 auto 50px auto;
     padding-bottom: 10px;
-    width: 200px;
+    padding-top: 10px;
+    width: 230px;
     background-color: black;
     color: white;
     text-align: center;
     text-decoration: none;
-    font-size: 40px;
+    font-size: 35px;
     letter-spacing:  0.7px;
-    font-variant: small-caps;
+
 }
 
 #button1:hover{
@@ -199,6 +196,50 @@ text-align: center;
     font-size: 21px;
     letter-spacing:  0.5px
 }
+
+
+#menu {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#menu h1 {
+    color: white;
+    text-align: center;
+    font-size: 65px;
+    font-weight: normal;
+    padding-top: 45px;
+}
+
+#menubody {
+    border: 1px solid white;
+    overflow:hidden;
+}
+
+.section {
+    /**overflow:hidden;**/
+padding:15px;
+
+    color:white;
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 40px;
+
+}
+
+#menubody a {
+    text-decoration: none;
+    text-align: center;
+}
+
+.section:hover {
+    background-color: #f44336;
+}
+
+
+
+
+
 
 
 
