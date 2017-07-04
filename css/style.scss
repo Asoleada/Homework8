@@ -78,7 +78,10 @@ body {
   .col-md-11 {width: 91.66%;}
   .col-md-12 {width: 100%;}
 
-
+  .width {
+    width:960px;
+    margin: 0 auto;
+  }
 }
 
 @media screen and (min-width:1200px) {
@@ -95,11 +98,7 @@ body {
   .col-lg-10 {width: 83.33%;}
   .col-lg-11 {width: 91.66%;}
   .col-lg-12 {width: 100%;}
-
-  .width {
-    width:980px;
-    margin: 0 auto;
-  }
+  
 }
 
 
@@ -314,13 +313,12 @@ $color-brown: #8b5f5b;
 
 #about{
   background-color: $color-brown;
-  padding-left: 20px;
-  padding-right: 20px;
+  @extend #menu;                     /**padding-left: 20px;  padding-right: 20px;**/
   color:white;
 
 
   h1{
-    font-size: 65px;
+    font-size: 60px;
     text-align: center;
     padding-top:40px;
     padding-bottom: 30px;
@@ -328,15 +326,13 @@ $color-brown: #8b5f5b;
   }
 
 p {
-font-size: 24px;
+font-size: 22px;
   margin-bottom: 0;
+  line-height: 30px;
 }
 
 }
 
-#chef {
-  margin-top:0;
-}
 
 #cheftext {
   float: left;
@@ -345,15 +341,25 @@ font-size: 24px;
   }
 
   #chefimg {
-    width: 150px;
     float:right;
-    border-radius: 50%;
+    margin-top: 15px;
+    img {
+      height: 100px;
+      width: 150px;
+      border-radius: 50%;}
+  }
+
+  #restpic {
     overflow:hidden;
-    img {height: 100px;}
-  }
+  width: 100%;
+  padding-top:30px;}
 
-  
 
-  #about1 {
-    background-color: cornflowerblue;
+#about2 {
+  margin-top: 30px;
+  h2 {
+    font-size: 30px;
   }
+}
+
+
