@@ -103,10 +103,9 @@ body {
 
 $hover-color-grey: RGBA(204,204, 204, 1);
 $color-red: #f44336;
+$text-color-grey: #616161
 
-
-#navigation {
-  ul{
+#navigation  {
   list-style-type: none;
   position: fixed;
   top: 0;
@@ -118,31 +117,32 @@ $color-red: #f44336;
   clear: both;
   margin-top: 0;
   padding-left:0;
-  }
-
-  li {
-    float: left;
-    font-size: 22px;
-    color: RGBA(255, 255, 255, 0.70);
-    text-decoration: none;
-    text-transform: uppercase;
-    padding-top: 10px;
-    padding-right: 15px;
-    padding-left: 15px;
-    text-align: center;
 }
 
-  li:hover {
-    background-color: $hover-color-grey;
-    color: black;
-    padding-bottom: 8px;
-  }
 
-  :hover {
-    background-color: black;
-  }
+#navigation li {
+  float: left;
+  font-size: 22px;
+  color: RGBA(255, 255, 255, 0.70);
+  text-decoration: none;
+  text-transform: uppercase;
+  padding-top: 10px;
+  padding-right: 15px;
+  padding-left: 15px;
+  text-align: center;
+
+
 }
 
+#navigation li:hover {
+  background-color: RGBA(204,204, 204, 1);
+  color: black;
+  padding-bottom: 8px;
+}
+
+#navigation:hover {
+  background-color: black;
+}
 
 
 #pizza {
@@ -193,14 +193,12 @@ $color-red: #f44336;
   text-decoration: none;
   font-size: 35px;
   letter-spacing:  0.7px;
-
-  :hover{
-    background-color: $hover-color-grey;
-    color: black;
-  }
 }
 
-
+#button1:hover{
+  background-color: $hover-color-grey;
+  color: black;
+}
 
 #menu {
   padding-left: 20px;
@@ -213,9 +211,6 @@ $color-red: #f44336;
     font-weight: normal;
     padding-top: 45px;
   }
-
-
-
 }
 
 
@@ -237,19 +232,9 @@ $color-red: #f44336;
   text-decoration: none;
   font-weight: normal;
   font-size: 40px;
-
-  :hover {
-    background-color: $color-red;
-  }
 }
 
-
-
-
-
-
-
-
-
-
+.section:hover {
+  background-color: $color-red;
+}
 
