@@ -95,7 +95,7 @@ body {
         .col-lg-11 {width: 91.66%;}
         .col-lg-12 {width: 100%;}
 
-        .width {width:980px;
+        .width {width:920px;
             margin: 0 auto;
         }
     }
@@ -240,9 +240,91 @@ text-align: center;
 }
 
 
+.pizzatype {
+    background-color: white;
+    overflow: hidden;
+    padding-left:15px;
+
+}
+
+.border {
+    overflow: hidden;
+    border-bottom: 1px solid #eee;
+    margin-right: 10px;
+    position: relative;
+padding-top: 35px;
+}
+
+
+.pizzatype h2{
+font-size: 33px;
+    padding-top: 10px;
+    display: inline;
+
+}
+
+
+.pizzatype p{
+    font-size: 33px;
+    color: #616161;
+    padding-bottom: 0;
+    padding-top:0;
+}
+
+.pizzatype h3, h4 {
+    display: inline;
+    font-size: 33px;
+    border-radius: 4px;
+    margin-left: 5px;
+    padding: 3px 6px;
+    font-weight: normal;
+}
+
+.pizzatype h3 {
+    color: white;
+    background-color: #f44336;
+}
+
+.pizzatype h4 {
+    background-color: #bbbbbb;
+}
+
+
+
+.price {
+    position: absolute;
+    top: 15px;
+    right: 0;
+    color: white;
+    background-color:#616161;
+    font-size: 33px;
+    padding: 4px 7px;
+    border-radius: 4px;
+}
+
+#price1 {
+    position: absolute;
+    top: 50px;
+    right: 0;
+}
 
 
 
 
+/** <img src="/img/chef.jpg" style="width:150px" class="w3-circle w3-right" alt="Chef"></p>
+
+<img src="/img/onepage_restaurant.jpg" style="width:100%" class="w3-margin-top w3-margin-bottom" alt="Restaurant">
+ */
 
 
+
+#about{
+    background-color: #8b5f5b;
+}
+
+#about h1{
+    font-size: 50px;
+    text-align: center;
+    padding-top:50px;
+color:white;
+}
