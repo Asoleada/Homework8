@@ -130,7 +130,7 @@ body {
     width: 100%; }
 
   .width {
-    width: 960px;
+    width: 980px;
     margin: 0 auto; } }
 @media screen and (min-width: 1200px) {
   .col-lg-1 {
@@ -279,24 +279,23 @@ body {
   padding-left: 15px; }
   .pizzatype h2 {
     font-size: 33px;
-    padding-top: 10px;
+    margin-top: 0;
     display: inline; }
   .pizzatype p {
     font-size: 33px;
     color: #616161;
     padding-bottom: 0;
     padding-top: 0; }
-  .pizzatype h3, .pizzatype h4 {
-    display: inline;
+  .pizzatype #hot, .pizzatype #new {
     font-size: 33px;
     border-radius: 4px;
     margin-left: 5px;
     padding: 3px 6px;
     font-weight: normal; }
-  .pizzatype h3 {
+  .pizzatype #hot {
     color: white;
     background-color: #f44336; }
-  .pizzatype h4 {
+  .pizzatype #new {
     background-color: #bbbbbb; }
 
 .border {
@@ -304,7 +303,7 @@ body {
   border-bottom: 1px solid #eee;
   margin-right: 10px;
   position: relative;
-  padding-top: 35px; }
+  padding-top: 15px; }
 
 .price {
   position: absolute;
@@ -315,11 +314,6 @@ body {
   font-size: 33px;
   padding: 4px 7px;
   border-radius: 4px; }
-
-#price1 {
-  position: absolute;
-  top: 50px;
-  right: 0; }
 
 #about {
   background-color: #8b5f5b;
@@ -346,17 +340,41 @@ body {
   margin-top: 15px; }
   #chefimg img {
     height: 100px;
-    width: 150px;
+    width: 140px;
     border-radius: 50%; }
 
+@media screen and (min-width: 768px) {
+  #chefimg img {
+    height: 105px;
+    width: 160px; } }
 #restpic {
-  overflow: hidden;
-  width: 100%;
-  padding-top: 30px; }
+  margin-top: 30px;
+  height: 200px;
+  background-image: url("restaurant.jpg");
+  background-size: cover;
+  background-repeat: no-repeat; }
 
+@media screen and (min-width: 768px) {
+  #restpic {
+    height: 666px; } }
 #about2 {
   margin-top: 30px; }
   #about2 h2 {
     font-size: 30px; }
+
+#paddingbottom {
+  padding-bottom: 70px; }
+
+#map {
+  height: 297px;
+  background-image: url("map.jpg");
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+#contact {
+  background-color: #6c7a81;
+  margin-top: 0;
+  padding-top: 0;
+  overflow: hidden; }
 
 /*# sourceMappingURL=style.css.map */
