@@ -405,7 +405,7 @@ font-size: 22px;
 
 
 #map {
-  height: 297px;
+  height: 363px;
   background-image: url("map.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -416,7 +416,31 @@ font-size: 22px;
 
 #contact{
   background-color: $background-color-grey;
-  margin-top:0;
-  padding-top:0;
   overflow: hidden;
+  color: white;
+
+  h1 {
+    font-size: 55px;
+    text-align: center;
+    font-weight: normal;
+    padding-top: 30px;
+  }
+
+p {
+  font-size: 22px;
+  margin-bottom: 30px;
 }
+
+}
+
+p#reserve {
+  font-size: 34px;
+  margin-top: 40px;
+}
+
+#FYI {
+  background-color: black;
+  padding: 3px 8px;
+}
+
+
