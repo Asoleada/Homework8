@@ -131,6 +131,10 @@ body {
 
   .width {
     width: 980px;
+    margin: 0 auto; }
+
+  #form {
+    width: 980px;
     margin: 0 auto; } }
 @media screen and (min-width: 1200px) {
   .col-lg-1 {
@@ -245,10 +249,10 @@ body {
   background-color: RGBA(204, 204, 204, 1);
   color: black; }
 
-#menu, #about {
+#menu, #about, #contact {
   padding-left: 20px;
   padding-right: 20px; }
-  #menu h1, #about h1 {
+  #menu h1, #about h1, #contact h1 {
     color: white;
     text-align: center;
     font-size: 65px;
@@ -363,7 +367,8 @@ body {
     font-size: 30px; }
 
 #paddingbottom {
-  padding-bottom: 70px; }
+  padding-bottom: 70px;
+  padding-right: 20px; }
 
 #map {
   height: 363px;
@@ -374,7 +379,8 @@ body {
 #contact {
   background-color: #6c7a81;
   overflow: hidden;
-  color: white; }
+  color: white;
+  padding-bottom: 75px; }
   #contact h1 {
     font-size: 55px;
     text-align: center;
@@ -390,14 +396,19 @@ p#reserve {
 
 #FYI {
   background-color: black;
-  padding: 3px 8px; }
+  padding: 2px 8px; }
 
 .form1 {
   width: 100%;
   font-family: 'Amatic SC', cursive;
   font-size: 25px;
-  height: 60px;
   overflow: hidden; }
+
+.height1 {
+  height: 60px; }
+
+.height2 {
+  height: 45px; }
 
 .margin1 {
   margin-bottom: 20px; }
@@ -411,10 +422,30 @@ p#reserve {
 .formPad2 {
   padding: 12px 0 15px 0; }
 
+.formPad3 {
+  padding: 3px 0 6px 0; }
+
 .textcolor {
   color: #b9b9b9; }
 
 textarea {
   resize: none; }
+
+footer {
+  height: 200px;
+  position: relative; }
+
+#footertext p, a {
+  color: white;
+  font-size: 32px; }
+
+#footertext {
+  position: absolute;
+  top: 25%;
+  width: 100%;
+  text-align: center; }
+
+#footertext a:hover {
+  color: #4CAF50; }
 
 /*# sourceMappingURL=style.css.map */

@@ -81,9 +81,10 @@ body {
   .col-sm-12 {
     width: 100%;
   }
+  }
 
 
-}
+
 
 /**FOR DESCTOP**/
 
@@ -106,7 +107,16 @@ body {
     width:980px;
     margin: 0 auto;
   }
+
+
+  #form {
+    width:980px;
+    margin: 0 auto;
+  }
 }
+
+
+
 
 @media screen and (min-width:1200px) {
 
@@ -132,6 +142,7 @@ $text-color-grey: #616161;
 $color-brown: #8b5f5b;
 $background-color-grey: #6c7a81;
 $form-text-color: #b9b9b9;
+$hover-green-color: #4CAF50;
 
 
 #navigation {
@@ -370,10 +381,12 @@ font-size: 22px;
       border-radius: 50%;}
   }
 
+
 @media screen and (min-width:768px) {
   #chefimg img{ height: 105px;
     width: 160px;}
 }
+
 
 
 
@@ -385,10 +398,12 @@ font-size: 22px;
   background-repeat: no-repeat;
 }
 
+
 @media screen and (min-width:768px) {
   #restpic { height: 666px;
     }
 }
+
 
 #about2 {
   margin-top: 30px;
@@ -399,8 +414,8 @@ font-size: 22px;
 
 #paddingbottom {
   padding-bottom: 70px;
+  padding-right: 20px;
 }
-
 
 
 
@@ -414,11 +429,12 @@ font-size: 22px;
 
 
 
-
 #contact{
   background-color: $background-color-grey;
   overflow: hidden;
   color: white;
+  @extend #menu;
+  padding-bottom: 75px;
 
   h1 {
     font-size: 55px;
@@ -441,43 +457,80 @@ p#reserve {
 
 #FYI {
   background-color: black;
-  padding: 3px 8px;
+  padding: 2px 8px;
 }
+
+
 
 .form1 {
   width: 100%;
   font-family: 'Amatic SC', cursive;
   font-size: 25px;
-  height: 60px;
   overflow:hidden;
+}
+
+.height1 {
+  height: 60px;
+}
+
+.height2 {
+  height: 45px;
 }
 
 .margin1 {
   margin-bottom:20px;
 }
 
+
 .margin2 {
   margin-bottom: 15px;
 }
-
 
 
 .formPad1 {
   padding: 15px 0 15px 5px;
 }
 
+
 .formPad2 {
   padding: 12px 0 15px 0;
+}
+
+.formPad3 {
+  padding: 3px 0 6px 0;
 }
 
 .textcolor {
   color: $form-text-color;
 }
 
+
 textarea {
   resize: none;
 }
 
 
+footer{
+  height: 200px;
+  position: relative;
+
+}
+
+#footertext p, a {
+color: white;
+font-size: 32px;
+}
 
 
+#footertext {
+  position: absolute;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+
+}
+
+#footertext a:hover {
+color: $hover-green-color;
+
+}
