@@ -381,15 +381,40 @@ body {
     font-weight: normal;
     padding-top: 30px; }
   #contact p {
-    font-size: 22px;
+    font-size: 23px;
     margin-bottom: 30px; }
 
 p#reserve {
-  font-size: 34px;
+  font-size: 35px;
   margin-top: 40px; }
 
 #FYI {
   background-color: black;
   padding: 3px 8px; }
+
+.form1 {
+  width: 100%;
+  font-family: 'Amatic SC', cursive;
+  font-size: 25px;
+  height: 60px;
+  overflow: hidden; }
+
+.margin1 {
+  margin-bottom: 20px; }
+
+.margin2 {
+  margin-bottom: 15px; }
+
+.formPad1 {
+  padding: 15px 0 15px 5px; }
+
+.formPad2 {
+  padding: 12px 0 15px 0; }
+
+.textcolor {
+  color: #b9b9b9; }
+
+textarea {
+  resize: none; }
 
 /*# sourceMappingURL=style.css.map */

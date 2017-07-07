@@ -131,6 +131,7 @@ $color-red: #f44336;
 $text-color-grey: #616161;
 $color-brown: #8b5f5b;
 $background-color-grey: #6c7a81;
+$form-text-color: #b9b9b9;
 
 
 #navigation {
@@ -427,14 +428,14 @@ font-size: 22px;
   }
 
 p {
-  font-size: 22px;
+  font-size: 23px;
   margin-bottom: 30px;
 }
 
 }
 
 p#reserve {
-  font-size: 34px;
+  font-size: 35px;
   margin-top: 40px;
 }
 
@@ -442,5 +443,41 @@ p#reserve {
   background-color: black;
   padding: 3px 8px;
 }
+
+.form1 {
+  width: 100%;
+  font-family: 'Amatic SC', cursive;
+  font-size: 25px;
+  height: 60px;
+  overflow:hidden;
+}
+
+.margin1 {
+  margin-bottom:20px;
+}
+
+.margin2 {
+  margin-bottom: 15px;
+}
+
+
+
+.formPad1 {
+  padding: 15px 0 15px 5px;
+}
+
+.formPad2 {
+  padding: 12px 0 15px 0;
+}
+
+.textcolor {
+  color: $form-text-color;
+}
+
+textarea {
+  resize: none;
+}
+
+
 
 
