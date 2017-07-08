@@ -14,7 +14,7 @@ body {
 
 [class*='col-'] {
   width: 100%;
-  /**FOR MOBILE**/
+  /**FOR screen < 320px**/
   float: left;
   min-height: 1px; }
 
@@ -380,6 +380,7 @@ body {
   background-color: #6c7a81;
   overflow: hidden;
   color: white;
+  /**padding-left: 20px;  padding-right: 20px;**/
   padding-bottom: 75px; }
   #contact h1 {
     font-size: 55px;
@@ -435,15 +436,14 @@ footer {
   height: 200px;
   position: relative; }
 
-#footertext p, a {
-  color: white;
-  font-size: 32px; }
-
 #footertext {
   position: absolute;
   top: 25%;
   width: 100%;
   text-align: center; }
+  #footertext p, #footertext a {
+    color: white;
+    font-size: 32px; }
 
 #footertext a:hover {
   color: #4CAF50; }
